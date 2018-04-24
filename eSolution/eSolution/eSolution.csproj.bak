@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{902B0623-F586-41E7-B94F-BA6A65834635}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eSolution</RootNamespace>
+    <AssemblyName>eSolution</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>..\..\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://192.168.1.190/emes/</InstallUrl>
+    <UpdateUrl>http://192.168.1.190/emes/</UpdateUrl>
+    <ProductName>eSloution</ProductName>
+    <PublisherName>eSolution for EG2</PublisherName>
+    <SuiteName>eSolution</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>eMES.html</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>43</ApplicationRevision>
+    <ApplicationVersion>0.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Easy.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>201BC29E369E4C80C7BE428E2C536A90B0DF8B73</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>eSolution_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>eSolution.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>eSolution.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\eMESHelper.cs" />
+    <Compile Include="Common\Functions.cs" />
+    <Compile Include="Common\HelperClass.cs" />
+    <Compile Include="Common\DatabaseHelper.cs" />
+    <Compile Include="Common\Print2LPT.cs" />
+    <Compile Include="Common\RawPrinterHelper.cs" />
+    <Compile Include="Common\StringConstants.cs" />
+    <Compile Include="Database\eSolution.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eSolution.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="eMESDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eMESDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\prtPackingList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\prtPackingList.Designer.cs">
+      <DependentUpon>prtPackingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="WinfrmBasic\frmCustomerMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmCustomerMaster.Designer.cs">
+      <DependentUpon>frmCustomerMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\frmDailyResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\frmDailyResult.designer.cs">
+      <DependentUpon>frmDailyResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmInventorySummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmInventorySummary.Designer.cs">
+      <DependentUpon>frmInventorySummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmItemByCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmItemByCustomer.Designer.cs">
+      <DependentUpon>frmItemByCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPackingSummaryForCVE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPackingSummaryForCVE.Designer.cs">
+      <DependentUpon>frmPackingSummaryForCVE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPalletize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPalletize.Designer.cs">
+      <DependentUpon>frmPalletize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPalletStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPalletStatus.Designer.cs">
+      <DependentUpon>frmPalletStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPopupCustomerEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPopupCustomerEdit.Designer.cs">
+      <DependentUpon>frmPopupCustomerEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPopupPOEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPopupPOEdit.Designer.cs">
+      <DependentUpon>frmPopupPOEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPOList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPOList.Designer.cs">
+      <DependentUpon>frmPOList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinfrmBasic\frmItemMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmItemMaster.Designer.cs">
+      <DependentUpon>frmItemMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPacking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPacking.Designer.cs">
+      <DependentUpon>frmPacking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPOPackingHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmPOPackingHistory.Designer.cs">
+      <DependentUpon>frmPOPackingHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmSizeMeasForApple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmSizeMeasForApple.Designer.cs">
+      <DependentUpon>frmSizeMeasForApple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmUserCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinfrmBasic\frmUserCode.Designer.cs">
+      <DependentUpon>frmUserCode.cs</DependentUpon>
+    </Compile>
+    <None Include="Database\eSolution.dbml.layout">
+      <DependentUpon>eSolution.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\prtPackingList.resx">
+      <DependentUpon>prtPackingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmCustomerMaster.resx">
+      <DependentUpon>frmCustomerMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\frmDailyResult.resx">
+      <DependentUpon>frmDailyResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmInventorySummary.resx">
+      <DependentUpon>frmInventorySummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmItemByCustomer.resx">
+      <DependentUpon>frmItemByCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPackingSummaryForCVE.resx">
+      <DependentUpon>frmPackingSummaryForCVE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPalletize.resx">
+      <DependentUpon>frmPalletize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPalletStatus.resx">
+      <DependentUpon>frmPalletStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPopupCustomerEdit.resx">
+      <DependentUpon>frmPopupCustomerEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPopupPOEdit.resx">
+      <DependentUpon>frmPopupPOEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WinfrmBasic\frmItemMaster.resx">
+      <DependentUpon>frmItemMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPacking.resx">
+      <DependentUpon>frmPacking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPOList.resx">
+      <DependentUpon>frmPOList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmPOPackingHistory.resx">
+      <DependentUpon>frmPOPackingHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmSizeMeasForApple.resx">
+      <DependentUpon>frmSizeMeasForApple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinfrmBasic\frmUserCode.resx">
+      <DependentUpon>frmUserCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database\eSolution.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>eSolution.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eMESDataSet.xsc">
+      <DependentUpon>eMESDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="eMESDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eMESDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="eMESDataSet.xss">
+      <DependentUpon>eMESDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="eSolution.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Easy.ico" />
+    <Content Include="Resource\Easy.ico" />
+    <Content Include="Resource\Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

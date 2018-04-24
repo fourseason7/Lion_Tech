@@ -1,0 +1,24 @@
+F:\eSolution\Database\bin\Debug\Database.dll.config
+F:\eSolution\Database\bin\Debug\Database.dll
+F:\eSolution\Database\bin\Debug\Database.pdb
+F:\eSolution\Database\obj\Debug\Database.dll
+F:\eSolution\Database\obj\Debug\Database.pdb
+F:\eSolution\Database\obj\Debug\eSolution.Database.csprojResolveAssemblyReference.cache
+H:\Projects\eSolution\Database\bin\Debug\Database.dll.config
+H:\Projects\eSolution\Database\bin\Debug\Database.dll
+H:\Projects\eSolution\Database\bin\Debug\Database.pdb
+H:\Projects\eSolution\Database\obj\Debug\eSolution.Database.csprojResolveAssemblyReference.cache
+H:\Projects\eSolution\Database\obj\Debug\Database.dll
+H:\Projects\eSolution\Database\obj\Debug\Database.pdb
+F:\Projects\eSolution\Database\bin\Debug\Database.dll.config
+F:\Projects\eSolution\Database\bin\Debug\Database.dll
+F:\Projects\eSolution\Database\bin\Debug\Database.pdb
+F:\Projects\eSolution\Database\obj\Debug\eSolution.Database.csprojResolveAssemblyReference.cache
+F:\Projects\eSolution\Database\obj\Debug\Database.dll
+F:\Projects\eSolution\Database\obj\Debug\Database.pdb
+F:\Projects\eSolution (vs2015)\Database\bin\Debug\Database.dll.config
+F:\Projects\eSolution (vs2015)\Database\bin\Debug\Database.dll
+F:\Projects\eSolution (vs2015)\Database\bin\Debug\Database.pdb
+F:\Projects\eSolution (vs2015)\Database\obj\Debug\eSolution.Database.csprojResolveAssemblyReference.cache
+F:\Projects\eSolution (vs2015)\Database\obj\Debug\Database.dll
+F:\Projects\eSolution (vs2015)\Database\obj\Debug\Database.pdb
