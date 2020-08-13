@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\IMS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\IMS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\IMS.csproj",
+        "projectName": "IMS",
+        "projectPath": "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\IMS.csproj",
+        "packagesPath": "C:\\Users\\FourSeason7_ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FourSeason7_ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.org": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

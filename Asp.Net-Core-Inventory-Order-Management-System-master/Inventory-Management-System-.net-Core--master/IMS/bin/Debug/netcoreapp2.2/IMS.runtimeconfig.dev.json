@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\FourSeason7_ASUS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\FourSeason7_ASUS\\.nuget\\packages"
+    ]
+  }
+}
