@@ -13,3 +13,18 @@ C:\Users\FourSeason7_ASUS\Downloads\Inventory-Management-System-.net-Core--maste
 C:\Users\FourSeason7_ASUS\Downloads\Inventory-Management-System-.net-Core--master\Inventory-Management-System-.net-Core--master\IMS\obj\Debug\netcoreapp2.2\IMS.AssemblyInfo.cs
 C:\Users\FourSeason7_ASUS\Downloads\Inventory-Management-System-.net-Core--master\Inventory-Management-System-.net-Core--master\IMS\obj\Debug\netcoreapp2.2\IMS.dll
 C:\Users\FourSeason7_ASUS\Downloads\Inventory-Management-System-.net-Core--master\Inventory-Management-System-.net-Core--master\IMS\obj\Debug\netcoreapp2.2\IMS.pdb
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\appsettings.json
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\bundleconfig.json
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\IMS.deps.json
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\IMS.runtimeconfig.json
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\IMS.runtimeconfig.dev.json
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\IMS.dll
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\bin\Debug\netcoreapp2.2\IMS.pdb
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\obj\Debug\netcoreapp2.2\IMS.csprojAssemblyReference.cache
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\obj\Debug\netcoreapp2.2\UserSecretsAssemblyInfo.cs
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\obj\Debug\netcoreapp2.2\IMS.AssemblyInfoInputs.cache
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\obj\Debug\netcoreapp2.2\IMS.AssemblyInfo.cs
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\obj\Debug\netcoreapp2.2\IMS.dll
+D:\02. GitHub\Lion_Tech\InventoryManagement\IMS\IMS\obj\Debug\netcoreapp2.2\IMS.pdb

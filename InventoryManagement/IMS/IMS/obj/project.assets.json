@@ -13776,11 +13776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\IMS.csproj",
+      "projectUniqueName": "D:\\02. GitHub\\Lion_Tech\\InventoryManagement\\IMS\\IMS\\IMS.csproj",
       "projectName": "IMS",
-      "projectPath": "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\IMS.csproj",
+      "projectPath": "D:\\02. GitHub\\Lion_Tech\\InventoryManagement\\IMS\\IMS\\IMS.csproj",
       "packagesPath": "C:\\Users\\FourSeason7_ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FourSeason7_ASUS\\Downloads\\Inventory-Management-System-.net-Core--master\\Inventory-Management-System-.net-Core--master\\IMS\\obj\\",
+      "outputPath": "D:\\02. GitHub\\Lion_Tech\\InventoryManagement\\IMS\\IMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FourSeason7_ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
